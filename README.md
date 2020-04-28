@@ -5,6 +5,11 @@
     <h1 align="center">Yii 2 Advanced Project Template</h1>
     <br>
 </p>
+делаем откат изменений в репозитории для примера на два коммита назад<br>
+git reset --hard HEAD~2
+
+Далее делаем принудительный коммит в основной репо на гитхабе<br>
+git push -f origin master
 
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
